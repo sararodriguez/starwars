@@ -682,5 +682,6 @@ Here are all the awesome guys who are helping to make the project's wiki even be
 You can follow the [Angular change log here](https://github.com/angular/angular/blob/master/CHANGELOG.md).
 
 # License
+
 MIT
 # starwars
