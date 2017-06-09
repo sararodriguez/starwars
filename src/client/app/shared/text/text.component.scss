@@ -1,0 +1,42 @@
+:host {
+  .starwars-text {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 900px;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    perspective: 230px;
+    text-align: justify;
+    .crawl {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      text-align: justify;
+      -webkit-transform-origin: 50% -10%;
+      -moz-transform-origin: 50% -10%;
+      -ms-transform-origin: 50% -10%;
+      -o-transform-origin: 50% -10%;
+      transform-origin: 50% -10%;
+      animation: crawl 90s linear;
+      p {
+        line-height: 1;
+      }
+    }
+  }
+
+  @keyframes crawl {
+    0% {
+      top: 1400px;
+      transform: rotateX(20deg) translateZ(0px);
+    }
+    100% {
+      top: -6000px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
+}
+
