@@ -487,7 +487,5 @@ Forks of this project demonstrate how to extend and integrate with other librari
 You can follow the [Angular change log here](https://github.com/angular/angular/blob/master/CHANGELOG.md).
 
 # License
-
 MIT
 # starwars
-

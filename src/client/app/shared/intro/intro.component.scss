@@ -1,0 +1,58 @@
+:host {
+  .intro-content {
+    .intro {
+      width: 20em;
+      margin: 0 auto;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      text-align: left!important;
+      line-height: 1.2;
+      font-size: 200%;
+      color: #036cdb;
+      font-weight: 800;
+      z-index: 1;
+      -webkit-animation: animationIntro  6s normal forwards ease-in-out;
+      -moz-animation: animationIntro 6s normal forwards ease-in-out;
+      -ms-animation: animationIntro 6s normal forwards ease-in-out;
+      -o-animation: animationIntro 6s normal forwards ease-in-out;
+      animation: animationIntro 6s normal forwards ease-in-out;
+    }
+  }
+
+  @-webkit-keyframes animationIntro  {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @-moz-keyframes animationIntro  {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @-ms-keyframes animationIntro  {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @-o-keyframes animationIntro  {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes animationIntro  {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+}
+
